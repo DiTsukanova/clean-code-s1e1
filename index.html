@@ -26,7 +26,7 @@
         </p>
     </section>
     <section class="todo">
-        <h3>Todo</h3>
+        <h3 class="todo__title">Todo</h3>
         <ul id="incomplete-tasks">
         <li>
             <input type="checkbox">
@@ -49,12 +49,12 @@
         </ul>
     </section>
     <section class="completed">
-        <h3>Completed</h3>
-        <ul id="completed-tasks">
-            <li>
-                <input type="checkbox" checked>
+        <h3 class="completed__title">Completed</h3>
+        <ul class="completed__list">
+            <li class="completed__item">
+                <input class="checked" type="checkbox" checked>
                 <label class="task">See the Doctor</label>
-                <input type="text" class="task">
+                <input class="task" type="text" >
                 <button class="edit">Edit</button>
                 <button class="delete">
                     <img src="./remove.svg" alt="delete-button">
