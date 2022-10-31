@@ -93,7 +93,7 @@ label[for='add-item__title'] {
     display: block;
     margin: 0 0 20px;
 }
-#add-item__text {
+.add-item {
     width: 318px;
 }
 
